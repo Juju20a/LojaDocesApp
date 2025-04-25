@@ -6,6 +6,8 @@ export default function Layout() {
       <Tabs.Screen name="index" options={{ title: 'Início' }} />
       <Tabs.Screen name="loja-doces" options={{ title: 'Loja de Doces' }} />
       <Tabs.Screen name="cadastro-cliente" options={{ title: 'Cadastro-Clientes' }} />
+      <Tab.Screen name="Catálogo" component={CatalogoScreen} />
+
 
     </Tabs>
   );
