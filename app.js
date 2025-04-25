@@ -6,10 +6,12 @@ import { Ionicons } from '@expo/vector-icons';
 import CatalogoScreen from './screens/CatalogoScreen'; 
 import { createStackNavigator } from '@react-navigation/stack';
 import DetalhesDoceScreen from './screens/DetalhesDoceScreen';
+import LojaDeDocesScreen from './screens/LojaDeDocesScreen';
 
 
 
 const Tab = createBottomTabNavigator();
+const Stack = createStackNavigator();
 
 // Telas fictícias
 function HomeScreen() {
