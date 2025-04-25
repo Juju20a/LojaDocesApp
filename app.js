@@ -3,7 +3,10 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Text, View } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import CatalogoScreen from './screens/CatalogoScreen'; // ou o caminho correto
+import CatalogoScreen from './screens/CatalogoScreen'; 
+import { createStackNavigator } from '@react-navigation/stack';
+import DetalhesDoceScreen from './screens/DetalhesDoceScreen';
+
 
 
 const Tab = createBottomTabNavigator();
